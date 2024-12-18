@@ -56,7 +56,7 @@ console.log(isPositive(-1));
 //    array is empty, return `undefined`.
 function getLast(array) {
 if (array.length===0) {
-  return 'undefined'
+  return undefined
 } else {
   return array[array.length-1];
 }
